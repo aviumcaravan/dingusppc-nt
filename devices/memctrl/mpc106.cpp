@@ -31,6 +31,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #include <cinttypes>
 #include <cstring>
 #include <string>
+#include <algorithm>
 
 MPC106::MPC106() : MemCtrlBase(), PCIDevice("Grackle"), PCIHost()
 {
